@@ -1,0 +1,13 @@
+.userInfo {
+  display: flex;
+}
+
+.img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.content {
+  margin-left: 4px;
+}

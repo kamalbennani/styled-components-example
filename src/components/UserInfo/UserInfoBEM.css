@@ -1,0 +1,13 @@
+.UserInfo {
+  display: flex;
+}
+
+.UserInfo img {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+}
+
+.UserInfo .UserInfo__Content {
+  margin-left: 4px;
+}
