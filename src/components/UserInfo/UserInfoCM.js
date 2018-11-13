@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from "./UserInfoBEM.css";
+import styles from './UserInfoBEM.css';
 
 export const UserInfoCM = () => (
   <div className={styles.userInfo}>

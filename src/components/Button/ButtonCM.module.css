@@ -1,0 +1,86 @@
+@import "../../theme/cm/theme.css";
+
+.Button {
+  padding: var(--btn-padding-base);
+  font-size: var(--font-size-base);
+  border-radius: var(--border-radius-base);
+  height: var(--btn-height-base);
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border-width: var(--border-width-base);
+  border-style: var(--border-style-base);
+  line-height: 1.43;
+  transition: 0.2s all;
+  outline-color: transparent;
+  font-family: var(--font-family-base);
+  cursor: pointer;
+}
+
+.Button-disabled {
+  cursor: not-allowed;
+}
+
+.Button-default {
+  composes: Button;
+}
+
+.Button-success {
+  composes: Button;
+  color: var(--btn-primary-color);
+  background-color: var(--btn-primary-bg);
+  border-color: var(--btn-primary-bg);
+}
+
+.Button-success:focus:not(.Button-disabled) {
+  outline: 0;
+  border-color: var(--btn-primary-bg);
+  box-shadow: none;
+}
+
+.Button-info {
+  composes: Button;
+  color: var(--btn-primary-color);
+  background-color: var(--btn-info-bg);
+  border-color: var(--btn-info-bg);
+}
+
+.Button-info:focus:not(.Button-disabled) {
+  outline: 0;
+  border-color: var(--btn-info-bg);
+  box-shadow: none;
+}
+
+.Button-warning {
+  composes: Button;
+  color: var(--text-color);
+  background-color: var(--btn-warning-bg);
+  border-color: var(--btn-warning-bg);
+}
+
+.Button-warning:hover:not(.Button-disabled) {
+  background-color: lighten(var(--btn-warning-bg), 2%);
+}
+
+.Button-warning:active:not(.Button-disabled) {
+  background-color: darken(var(--btn-warning-bg), 5%);
+}
+
+.Button-warning:focus:not(.Button-disabled) {
+  outline: 0;
+  border-color: var(--btn-warning-bg);
+  box-shadow: none;
+}
+
+.Button-danger {
+  composes: Button;
+  color: var(--btn-primary-color);
+  background-color: var(--btn-danger-bg);
+  border-color: var(--btn-danger-bg);
+}
+
+.Button-danger:focus:not(.Button-disabled) {
+  outline: 0;
+  border-color: var(--btn-danger-bg);
+  box-shadow: none;
+}

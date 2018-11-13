@@ -1,0 +1,82 @@
+@import './colors.css';
+
+html {
+  --text-color               : #10101F;
+  --font-size-base           : 14px;
+  --font-size-sm             : 12px;
+  --font-size-lg             : 16px;
+  --font-size-xl             : 18px;
+  --font-family-base         : 'Open Sans';
+  --font-weight-heavy        : 600;
+  
+  /* Border color */
+  --border-width-base        : 1px;
+  --border-color-base        : #8c8fa2;
+  --border-style-base        : solid;
+  --border-radius-base       : 2px;
+  
+  /* Shadow */
+  --shadow-color             : rgba(0, 0, 0, 0.2);
+  --shadow-1-up              : 0 -1px 6px var(--shadow-color);
+  --shadow-1-down            : 0 1px 6px var(--shadow-color);
+  --shadow-1-left            : -1px 0 6px var(--shadow-color);
+  --shadow-1-right           : 1px 0 6px var(--shadow-color);
+  --shadow-2                 : 0 2px 8px var(--shadow-color);
+  --box-shadow-base          : var(--shadow-1-down);
+  
+  /* Button */
+  --btn-primary-color        : var(--white-default);
+  --btn-primary-bg           : var(--green-default);
+  
+  --btn-disabled-color       : #768093;
+  --btn-disabled-bg          : #F5F6F8;
+  
+  --btn-info-bg              : var(--blue-default);
+  --btn-warning-bg           : var(--yellow-default);
+  --btn-danger-bg            : var(--red-default);
+  
+  --btn-default-color        : var(--text-color);
+  --btn-default-bg           : var(--white-default);
+  --btn-default-bg-hover     : var(--white-hover);
+  --btn-default-bg-active    : var(--white-active);
+  --btn-default-border       : var(--border-color-base);
+  
+  --btn-padding-base         : 0 10px;
+  --btn-border-radius        : 15px;
+  --btn-rounded-padding-base : 0 15px;
+  
+  --outline-base             : var(--blue-default);
+  
+  --dropdown-padding-base    : 7px 15px;
+  
+  --dropdown-btn-padding-sm   : 0 8px;
+  --dropdown-btn-padding-base : 0 8px;
+  --dropdown-btn-padding-lg   : 0 12px;
+  --dropdown-btn-padding-xl   : 0 12px;
+  
+  --dropdown-btn-border-radius-base  : 4px;
+  --dropdown-btn-border-color-base   : #E0E6ED;
+  
+  --btn-height-sm            : 24px;
+  --btn-height-base          : 32px;
+  --btn-height-lg            : 48px;
+  --btn-height-xl            : 56px;
+  
+  --icon-padding-sm           : 0 8px;
+  --icon-padding-base         : 0 8px;
+  --icon-padding-lg           : 0 12px;
+  --icon-padding-xl           : 0 16px;
+  
+  --dropdown-btn-text-color   :  #3C4858;
+  --dropdown-text-color-hover :  #1F2D3D;
+  
+  --dropdown-btn-border-hover : var(--btng-active);
+  
+  --dropdown-overlay-padding-base  : 0;
+  
+  --dropdown-item-height-base      : 24px;
+  --dropdown-item-margin-base      : 0 0 8px 0;
+  --dropdown-item-padding-base     : 0 16px;
+  
+  --dropdown-item-color-base       : var(--btng-active);
+}
